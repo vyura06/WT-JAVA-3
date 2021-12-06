@@ -1,0 +1,20 @@
+package app.enums;
+
+public enum MsgType {
+    REGISTER,
+    AUTH,
+
+    USER_FIND_BY_ID,
+    USER_FIND_ALL,
+    USER_DELETE_BY_ID,
+    USER_DELETE_ALL,
+    DOCUMENT_FIND_BY_ID,
+    DOCUMENT_FIND_ALL,
+    DOCUMENT_SAVE,
+    DOCUMENT_DELETE_BY_ID,
+    DOCUMENT_DELETE_ALL,
+
+    ERROR,
+    HELP,
+    EXIT;
+}
